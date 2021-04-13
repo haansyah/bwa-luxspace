@@ -21,14 +21,14 @@ module.exports = {
 
       black: colors.black,
       white: colors.white,
-      gray: {...colors.coolGray, 100: "#F9F9F9", 200: "#F1F1F1"},
-      red: {...colors.red, 500: "#EO195D"},
+      gray: { ...colors.coolGray, 100: "#F9F9F9", 200: "#F1F1F1" },
+      red: { ...colors.red, 500: "#EO195D" },
       yellow: colors.amber,
       green: colors.emerald,
-      blue: {...colors.blue, 200:"#BCE7F0"},
+      blue: { ...colors.blue, 200: "#BCE7F0" },
       indigo: colors.indigo,
       purple: colors.violet,
-      pink: {...colors.pink, 400: "#F9CADA"},
+      pink: { ...colors.pink, 400: "#F9CADA" },
     },
     spacing: {
       px: "1px",
@@ -174,16 +174,9 @@ module.exports = {
       DEFAULT: "1",
     },
     fontFamily: {
-      sans: [
-        "'Open Sans', sans-serif",
-        "'Poppins', sans-serif",
-      ],
-      serif: [
-        
-      ],
-      mono: [
-        
-      ],
+      sans: ["'Open Sans', sans-serif", "'Poppins', sans-serif"],
+      serif: [],
+      mono: [],
     },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],
